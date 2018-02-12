@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="dmn_demand" label="Evaluation" max_length="40" name="x_snc_apids1_evaluation" sizeclass="1" type="collection">
+        <element label="Analyst assigned" max_length="32" name="analyst_assigned" reference="sys_user" type="reference"/>
+        <element label="Analyst group" max_length="32" name="analyst_group" reference="sys_user_group" reference_qual="name=APIDS - Analyst^EQ" reference_qual_condition="name=APIDS - Analyst^EQ" type="reference"/>
+        <element label="Evaluator assigned" max_length="32" name="evaluator_assigned" reference="sys_user" type="reference"/>
+        <element label="Implementation Lead assigned" max_length="32" name="implementation_lead_assigned" reference="sys_user" type="reference"/>
+        <element label="Implementation plan complete" max_length="40" name="implementation_plan_complete" type="boolean"/>
+        <element label="Implementation plan results confirmed" max_length="40" name="implementation_plan_results_confirmed" type="boolean"/>
+        <element label="Monetary Award amount" max_length="20" name="monetary_award_amount" type="currency"/>
+        <element label="PDM assigned" max_length="32" name="pdm_assigned" reference="sys_user" type="reference"/>
+        <element label="Replicatable Idea" max_length="40" name="replicatable_idea" type="boolean"/>
+    </element>
+</database>

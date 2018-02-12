@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="monetary_award_amount" label="Monetary Award amount" language="en" table="x_snc_apids1_evaluation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>monetary_award_amount</element>
+            <help/>
+            <hint/>
+            <label>Monetary Award amount</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <plural>Monetary Award amounts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-12 13:54:20</sys_created_on>
+            <sys_id>8afa5fa0db1c5300a117b701ef961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Monetary Award amount</sys_name>
+            <sys_package display_value="APIDS1" source="x_snc_apids1">642be548db1813003e38595fdf961957</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="APIDS1">642be548db1813003e38595fdf961957</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_apids1_evaluation_monetary_award_amount_en</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-12 13:54:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

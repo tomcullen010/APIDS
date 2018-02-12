@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Evaluation</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Evaluation</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">d5a3aa77b8130300651775b34d8f5119</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-02-10 16:52:52</sys_created_on>
+        <sys_id>65a07d8cdb1813003e38595fdf96197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Evaluation</sys_name>
+        <sys_package display_value="APIDS1" source="x_snc_apids1">642be548db1813003e38595fdf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APIDS1">642be548db1813003e38595fdf961957</sys_scope>
+        <sys_update_name>sys_wizard_answer_65a07d8cdb1813003e38595fdf96197e</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-02-10 16:52:52</sys_updated_on>
+        <table/>
+        <target_url>x_snc_apids1_evaluation.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="analyst_group" label="Analyst group" language="en" table="x_snc_apids1_evaluation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>analyst_group</element>
+            <help/>
+            <hint/>
+            <label>Analyst group</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <plural>Analyst groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-10 19:57:08</sys_created_on>
+            <sys_id>f4da5a48db9813003e38595fdf961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Analyst group</sys_name>
+            <sys_package display_value="APIDS1" source="x_snc_apids1">642be548db1813003e38595fdf961957</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="APIDS1">642be548db1813003e38595fdf961957</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_apids1_evaluation_analyst_group_en</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-10 19:57:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_snc_apids1_evaluation" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <sequence>1</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-10 17:31:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba39bdc0db5813003e38595fdf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-10 17:31:06</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <sequence>2</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-10 17:31:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e7979c0db5813003e38595fdf9619e7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-10 17:34:18</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Screening</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <sequence>3</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-10 17:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d89bdc0db5813003e38595fdf9619f5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-10 17:34:27</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Qualified</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <sequence>4</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-10 17:31:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6993104db5813003e38595fdf96192f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-10 17:34:39</sys_updated_on>
+            <value>-4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incomplete</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <sequence>5</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-10 17:32:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdb93104db5813003e38595fdf961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-10 17:32:25</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deferred</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <sequence>6</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-10 17:32:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1c9b104db5813003e38595fdf961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-10 17:32:44</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <sequence>7</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-10 17:33:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31d97104db5813003e38595fdf961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-10 17:33:01</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <sequence>8</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-10 17:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56e97104db5813003e38595fdf96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-10 17:33:19</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <sequence>9</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-10 17:33:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>500af104db5813003e38595fdf9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-10 17:33:44</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_snc_apids1_evaluation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-10 17:31:06</sys_created_on>
+            <sys_id>f169f9c0db5813003e38595fdf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="APIDS1" source="x_snc_apids1">642be548db1813003e38595fdf961957</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="APIDS1">642be548db1813003e38595fdf961957</sys_scope>
+            <sys_update_name>sys_choice_x_snc_apids1_evaluation_state</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-10 17:31:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

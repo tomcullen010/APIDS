@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="implementation_plan_results_confirmed" label="Implementation plan results confirmed" language="en" table="x_snc_apids1_evaluation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>implementation_plan_results_confirmed</element>
+            <help/>
+            <hint/>
+            <label>Implementation plan results confirmed</label>
+            <language>en</language>
+            <name>x_snc_apids1_evaluation</name>
+            <plural>Implementation plan results confirmed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-02-12 19:28:09</sys_created_on>
+            <sys_id>b757e4fcdb9c5300a117b701ef961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Implementation plan results confirmed</sys_name>
+            <sys_package display_value="APIDS1" source="x_snc_apids1">642be548db1813003e38595fdf961957</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="APIDS1">642be548db1813003e38595fdf961957</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_apids1_evaluation_implementation_plan_results_confirmed_en</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-02-12 19:28:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

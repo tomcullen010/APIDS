@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_apids1_idea</collection>
+        <condition> gs.hasRole('demand_manager')  &amp;&amp; current.state == 2 &amp;&amp; current.demand.nil() &amp;&amp; previous.state != 2</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Evaluation on Accepting Idea</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	var demandTable = "x_snc_apids1_evaluation";
+	
+	
+	var demand = new GlideRecord(demandTable);
+	demand.initialize();
+	var fields = ['business_case', 'short_description', 'submitter', 'sys_domain', 'business_unit', 'department', 'impacted_business_units', 'business_capabilities', 'business_applications'];
+	for(var i in fields){
+		var field = fields[i];
+		if(demand.isValidField(field)){
+			demand.setValue(field, current.getValue(field));
+		}
+	}
+	
+	demand.setValue("category","strategic");
+	demand.setValue("type", "project");
+	demand.setValue("parent", current.sys_id);
+	demand.setValue("idea", current.sys_id);
+	
+	//set APIDS group and pass approving analyst to Evaluation record
+	demand.setValue("analyst_group", "26296908db1813003e38595fdf961981");
+	demand.setValue("analyst_assigned", gs.getUser());
+
+	
+	if(GlidePluginManager.isActive('com.snc.apm')){
+		demand.setValue("size", current.effort);
+		if(current.pm_program)
+			demand.setValue("primary_program", current.pm_program);
+		if(current.start_by_fiscal_year)
+			demand.setValue("start_date", new GlideDateTime(current.start_by_fiscal_year.fiscal_start_date_time).date);
+		if(current.implement_by_fiscal_year)
+			demand.setValue("requested_by", new GlideDateTime(current.implement_by_fiscal_year.fiscal_end_date_time).date);
+		
+		var demandPrice = parseFloat(current.estimated_benefit.getReferenceValue());
+		demand.setValue("financial_benefit",  current.estimated_benefit.getReferenceCurrencyCode() + ';' + demandPrice);
+	}
+	
+	var dmnId = demand.insert();
+	demand.get(dmnId);
+	current.demand = dmnId;
+	current.stage = 'demand';
+	var link = ' <a href ="/' + demandTable + '.do?sysparm_query=number%3D' + demand.getValue('number') + '">'+ demand.getValue('number') +'</a>';
+	var message = gs.getMessage("Evaluation {0} has been created");
+		message = message.replace("{0}", link);
+			
+			gs.addInfoMessage(message);
+			
+		})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-02-10 17:02:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97323dccdb1813003e38595fdf961990</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Create Evaluation on Accepting Idea</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="APIDS1" source="x_snc_apids1">642be548db1813003e38595fdf961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APIDS1">642be548db1813003e38595fdf961957</sys_scope>
+        <sys_update_name>sys_script_97323dccdb1813003e38595fdf961990</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-02-12 17:30:00</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=97323dccdb1813003e38595fdf961990"/>
+</record_update>
