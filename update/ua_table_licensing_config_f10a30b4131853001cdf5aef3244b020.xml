@@ -5,22 +5,24 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_snc_apids1_evaluation</name>
+        <name>x_snc_apids1_idea</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>tom.cullen</sys_created_by>
-        <sys_created_on>2018-02-10 16:52:52</sys_created_on>
-        <sys_id>35a07d8cdb1813003e38595fdf961986</sys_id>
+        <sys_created_on>2018-02-10 16:30:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f10a30b4131853001cdf5aef3244b020</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_apids1_evaluation</sys_name>
+        <sys_name>x_snc_apids1_idea</sys_name>
         <sys_package display_value="APIDS1" source="x_snc_apids1">642be548db1813003e38595fdf961957</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="APIDS1">642be548db1813003e38595fdf961957</sys_scope>
-        <sys_update_name>ua_table_licensing_config_35a07d8cdb1813003e38595fdf961986</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_f10a30b4131853001cdf5aef3244b020</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2018-02-10 16:52:52</sys_updated_on>
+        <sys_updated_on>2018-02-10 16:30:52</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

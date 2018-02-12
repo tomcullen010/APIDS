@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="170a70b4131853001cdf5aef3244b0b1" sys_domain="global" table="x_snc_apids1_evaluation" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-12 20:49:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f0a70b4131853001cdf5aef3244b0b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_apids1_evaluation" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">170a70b4131853001cdf5aef3244b0b1</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">47263180db5813003e38595fdf961914</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-12 20:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-12 20:49:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>970a70b4131853001cdf5aef3244b0b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_apids1_evaluation" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">170a70b4131853001cdf5aef3244b0b1</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4b263180db5813003e38595fdf961911</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-12 20:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-12 20:49:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>930a70b4131853001cdf5aef3244b0b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_apids1_evaluation" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">170a70b4131853001cdf5aef3244b0b1</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">4b263180db5813003e38595fdf961918</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-12 20:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-12 20:49:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f0a70b4131853001cdf5aef3244b0d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_apids1_evaluation" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">170a70b4131853001cdf5aef3244b0b1</sys_ui_form>
+            <sys_ui_section caption="Financials" display_value="Financials" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">c3263180db5813003e38595fdf96191a</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-12 20:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-12 20:49:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f0a70b4131853001cdf5aef3244b0d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_apids1_evaluation" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">170a70b4131853001cdf5aef3244b0b1</sys_ui_form>
+            <sys_ui_section caption="Business Case" display_value="Business Case" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">c726bd40db5813003e38595fdf9619a5</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-12 20:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-12 20:49:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f0a70b4131853001cdf5aef3244b0d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_apids1_evaluation" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">170a70b4131853001cdf5aef3244b0b1</sys_ui_form>
+            <sys_ui_section caption="Assessment Data" display_value="Assessment Data" name="x_snc_apids1_evaluation" sys_domain="global" view="d38d80523713310033cb26877e41f1c2">cb263180db5813003e38595fdf961916</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-12 20:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_apids1_evaluation</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-12 20:49:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>170a70b4131853001cdf5aef3244b0b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_apids1_evaluation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="APIDS1" source="x_snc_apids1">642be548db1813003e38595fdf961957</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="APIDS1">642be548db1813003e38595fdf961957</sys_scope>
+            <sys_update_name>sys_ui_form_sections_170a70b4131853001cdf5aef3244b0b1</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-12 20:49:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Planning Console" name="planning_console">d38d80523713310033cb26877e41f1c2</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

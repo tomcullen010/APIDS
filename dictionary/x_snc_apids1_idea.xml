@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="idea" label="Idea" max_length="40" name="x_snc_apids1_idea" sizeclass="2" type="collection"/>
+    <element extends="idea" label="Idea" max_length="40" name="x_snc_apids1_idea" type="collection"/>
 </database>
